@@ -1,9 +1,11 @@
+import java.util.Date;
+
 public class Bancada {
 
     private int id;
     private String nomeCultura;
-    private String dataPlantio;
-    private String dataPrevistaColheita;
+    private Date dataPlantio;
+    private Date dataPrevistaColheita;
     private int capacidadeReservatorio;
     private int maxUnidadesPlantio;
 
@@ -27,19 +29,19 @@ public class Bancada {
         this.nomeCultura = nomeCultura;
     }
 
-    public String getDataPlantio() {
+    public Date getDataPlantio() {
         return dataPlantio;
     }
 
-    public void setDataPlantio(String dataPlantio) {
+    public void setDataPlantio(Date dataPlantio) {
         this.dataPlantio = dataPlantio;
     }
 
-    public String getDataPrevistaColheita() {
+    public Date getDataPrevistaColheita() {
         return dataPrevistaColheita;
     }
 
-    public void setDataPrevistaColheita(String dataPrevistaColheita) {
+    public void setDataPrevistaColheita(Date dataPrevistaColheita) {
         this.dataPrevistaColheita = dataPrevistaColheita;
     }
 
